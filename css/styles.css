@@ -187,12 +187,13 @@ body {
   color: var(--main-color);
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 11px;
 }
 
-.header__name-wrapper {
+.header-wrapper {
   width: 295px;
   margin: 0 auto;
-  margin-bottom: 11px;
+  margin-bottom: 15px;
 }
 
 .header__description {
@@ -201,11 +202,8 @@ body {
   color: var(--main-color);
   margin: 0 auto;
 }
-
-.header__description-wrapper {
-  width: 220px;
-  margin: 0 auto;
-  margin-bottom: 15px;
+.header__description span {
+  display: block;
 }
 
 .find__btn {
@@ -345,19 +343,19 @@ body {
   }
   .header__name {
     font-size: 3.25rem;
+    margin-bottom: 27px;
   }
-  .header__name-wrapper {
+  .header-wrapper {
     width: 510px;
     margin: 0 auto;
-    margin-bottom: 27px;
+    margin-bottom: 34px;
   }
   .header__description {
     font-size: 1.5rem;
   }
-  .header__description-wrapper {
-    width: 410px;
-    margin: 0 auto;
-    margin-bottom: 34px;
+
+  .header__description span {
+    display: inline;
   }
   .find__btn {
     width: 226px;
